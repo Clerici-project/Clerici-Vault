@@ -1,0 +1,13 @@
+*.DS_Store
+.idea
+
+node_modules
+npm-debug.log
+dist/
+assets/MyMoneroLibAppCpp_WASM.js
+assets/MyMoneroLibAppCpp_WASM.wasm
+**/tests_config.js
+
+cordova_res/build/*
+cordova.android.build.json
+android_release.jks
