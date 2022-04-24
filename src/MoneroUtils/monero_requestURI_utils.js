@@ -1,7 +1,7 @@
 'use strict'
 
-const coinSymbol = 'XMR'
-const coinUriPrefix = 'monero:'
+const coinSymbol = 'CLC'
+const coinUriPrefix = 'clerici:'
 
 const URITypes = {
   addressAsFirstPathComponent: 1,
@@ -89,7 +89,7 @@ function New_ParsedPayload_FromPossibleRequestURIString (string, nettype, monero
         nettype
       )
     } catch (e) {
-      throw 'No Monero request info'
+      throw 'No Clerici request info'
     }
     // then it looks like a monero address
     return {

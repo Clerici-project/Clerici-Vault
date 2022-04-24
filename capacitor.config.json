@@ -1,6 +1,6 @@
 {
   "appId": "com.mymonero.official_android_application",
-  "appName": "MyMonero",
+  "appName": "Clerici Vault",
   "bundledWebRuntime": false,
   "npmClient": "npm",
   "webDir": "dist",
